@@ -1,5 +1,5 @@
 /**
- * File:        rittrace.c
+ * File:        trace.c
  * Author:      Chris Tremblay <cst1465@rit.edu>
  * Date:        10/08/2021, National Fluff Day!
  * Description:
@@ -30,7 +30,7 @@
 #include "err.h"
 
 // The usage message
-const char USAGE_MSG[] = "Usage: ./rittrace [-n] [-q N] host\n";
+const char USAGE_MSG[] = "Usage: ./trace [-n] [-q N] host\n";
 
 // the getopt string for flags
 const char FLAGS[] = "nq:";
